@@ -5,7 +5,8 @@ class About extends React.Component {
     return (
       <div>
         <h1>About</h1>
-        <h2>このサイトは日記を投稿できるサイトです。</h2>
+        <p>初めまして、{this.props.name}です。</p>
+        <p>このサイトは日記を投稿できるサイトです。</p>
       </div>
     );
   }

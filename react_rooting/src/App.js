@@ -10,9 +10,11 @@ class App extends Component {
       <div className="App">
         <Router>
           <Navbar />
+          {/* Routerの中にRouteを書く */}
           <Routes>
+            {/* Routeの中にパスと対応するコンポーネントを書く */}
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path='/About' element={<About name="井上" />} />
           </Routes>
         </Router>
       </div>
